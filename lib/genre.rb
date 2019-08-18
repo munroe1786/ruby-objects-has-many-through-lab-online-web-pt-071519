@@ -16,6 +16,6 @@ class Genre
   #def artists 
     #artists.map do |artist| artist.song
   #end
-end
+#end
 
 end
