@@ -21,10 +21,6 @@ class Artist
     Song.new(name, self, genre)
   end
   
-  #def waiters
-    #meals.map do |meal| meal.waiter
-  #end
-  
   def genres 
     songs.map do |song| song.genre
   end
