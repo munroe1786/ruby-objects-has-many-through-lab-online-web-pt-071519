@@ -13,6 +13,8 @@ class Genre
     @@all
   end
   
+  
+  
   def artists 
     songs.map do |x| x.artist
   end
